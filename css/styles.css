@@ -508,12 +508,12 @@ padding-bottom: 100px;
  .page-footer .container{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    
  }
 
  .socials-box{
     display: block;
-    margin-right: 120px;
+   
  }
 
  .socials-box-text{
@@ -542,5 +542,75 @@ padding-bottom: 100px;
  .logo-text-box{
     display: block;
     margin-right: 120px;
-  
+ }
+
+ .footer-form-text{
+    color: var(--WHITE, #FFF);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+ }
+.footer-input{
+    border-radius: 4px;
+    border: 1px solid var(--WHITE, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    padding: 8px 16px;
+    width: 264px;
+    height: 40px;
+    outline: transparent;
+
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0.04em;
+}
+
+.footer-input::placeholder{
+    color: var(--WHITE, #FFF);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 0.04em;
+   
+}
+
+ .footer-btn{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5em;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+
+    padding: 8px 24px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    border: none; 
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+
+ .footer-btn:hover, .footer-btn:focus{
+    background-color: #404BBF;
+ }
+
+ .footer-subscr-icon{
+    fill: #FFFFFF;
+ }
+
+ .input-and-btn{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+ }
+ 
+ .footer-form{
+    margin-left: 80px;
+    display: inline-block;
  }
