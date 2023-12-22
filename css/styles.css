@@ -835,8 +835,13 @@ margin-bottom: 24px;
     justify-content: center;
     fill: transparent;
  }
-.checkbox:checked + .checkbx{
+.checkbox:checked + .modal-chb > .checkbx{
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.checkbox:checked + .checkbx{
+    background-color: #404bbf;
+    border: none;
 }
