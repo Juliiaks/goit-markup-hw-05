@@ -616,7 +616,7 @@ padding-bottom: 100px;
  }
 
  /* Modal Window */
- .backdrop{
+ .modal-window{
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -632,7 +632,7 @@ padding-bottom: 100px;
 
  }
 
- .backdrop.is-open{
+ .modal-window.is-open{
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
